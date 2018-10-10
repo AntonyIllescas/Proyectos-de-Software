@@ -16,6 +16,9 @@ public class Calculadora {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Suma: "+suma(2,4));
     }
-    
+    public static int suma(int a, int b){
+    return a+b;
+    }
 }
